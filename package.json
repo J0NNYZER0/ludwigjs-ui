@@ -1,6 +1,6 @@
 {
   "name": "viddy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "'ui components for ludwigjs platform'",
   "main": "dist/index.js",
   "publishConfig": {

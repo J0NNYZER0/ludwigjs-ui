@@ -5,7 +5,7 @@ const config = {
     input: 'lib/index.js',
     external: ['react', 'react-dom'],
     output: {
-      format: 'umd',
+      format: 'cjs',
       name: 'viddy',
       globals: {
         react: 'React',
