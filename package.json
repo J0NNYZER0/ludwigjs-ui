@@ -1,0 +1,45 @@
+{
+  "name": "ludwig-ui",
+  "version": "0.0.1",
+  "description": "'ui components for ludwigjs platform'",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "scripts": {
+    "build": "rollup -c -o dist/ludwig-ui.min.js",
+    "start": "dist/ludwig-ui.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "'reactjs",
+    "webpack",
+    "component",
+    "library'"
+  ],
+  "author": "'J0NNYZER0'",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J0J0NNYZER0/ludwig-ui.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "rollup": "^0.67.0",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-uglify": "^6.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/J0J0NNYZER0/ludwig-ui/issues"
+  },
+  "homepage": "https://github.com/J0J0NNYZER0/ludwig-ui#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {}
+}
