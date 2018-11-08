@@ -1,14 +1,14 @@
 {
-  "name": "ludwig-ui",
+  "name": "viddy",
   "version": "0.0.1",
   "description": "'ui components for ludwigjs platform'",
   "main": "dist/index.js",
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "scripts": {
-    "build": "rollup -c -o dist/ludwig-ui.min.js",
-    "start": "dist/ludwig-ui.min.js",
+    "build": "rollup -c -o dist/viddy.min.js",
+    "start": "dist/viddy.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -21,7 +21,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/J0J0NNYZER0/ludwig-ui.git"
+    "url": "git+https://github.com/J0NNYZER0/viddy.git"
   },
   "devDependencies": {
     "@babel/core": "^7.1.5",
@@ -34,9 +34,9 @@
     "rollup-plugin-uglify": "^6.0.0"
   },
   "bugs": {
-    "url": "https://github.com/J0J0NNYZER0/ludwig-ui/issues"
+    "url": "https://github.com/J0NNYZER0/viddy/issues"
   },
-  "homepage": "https://github.com/J0J0NNYZER0/ludwig-ui#readme",
+  "homepage": "https://github.com/J0NNYZER0/viddy#readme",
   "directories": {
     "lib": "lib",
     "test": "test"

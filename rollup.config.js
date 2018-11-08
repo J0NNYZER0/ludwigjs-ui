@@ -6,7 +6,7 @@ const config = {
     external: ['react', 'react-dom'],
     output: {
       format: 'umd',
-      name: 'ludwig-ui',
+      name: 'viddy',
       globals: {
         react: 'React',
         'react-dom': 'ReactDOM'
