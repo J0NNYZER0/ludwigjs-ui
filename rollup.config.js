@@ -1,22 +1,26 @@
-import { uglify } from 'rollup-plugin-uglify'
 import babel from 'rollup-plugin-babel'
+import commonjs from 'rollup-plugin-commonjs'
+import resolve from 'rollup-plugin-node-resolve'
+import { uglify } from 'rollup-plugin-uglify'
 
-const config = {
-    input: 'lib/index.js',
+export default {
+    input: 'src/main.js',
     external: ['react', 'react-dom'],
     output: {
-      format: 'cjs',
+      file: 'dist/viddy.min.js',
+      format: 'umd',
       name: 'viddy',
       globals: {
         react: 'React',
-        'react-dom': 'ReactDOM'
+        "react-dom": 'ReactDOM'
       }
     },
     plugins: [
       babel({
-          exclude: 'node_modules/**'
+        exclude: 'node_modules/**'
       }),
+      resolve(),
+      commonjs(),
       uglify()
     ]
 }
-export default config

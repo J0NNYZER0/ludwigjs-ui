@@ -1,13 +1,12 @@
 {
   "name": "viddy",
-  "version": "0.0.3",
+  "version": "0.0.10",
   "description": "'ui components for ludwigjs platform'",
-  "main": "dist/index.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "rollup -c -o dist/viddy.min.js",
+    "build": "rollup -c",
     "start": "dist/viddy.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,6 +30,8 @@
     "react-dom": "^16.6.1",
     "rollup": "^0.67.0",
     "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
     "rollup-plugin-uglify": "^6.0.0"
   },
   "bugs": {
