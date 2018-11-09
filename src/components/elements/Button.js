@@ -9,11 +9,11 @@ class Button extends Component {
 
   }
 
-  click() {
+  click(e) {
 
-    const { click = () => { console.log('default button click') } } = this.props
+    const { click = e => { console.log('default button click') } } = this.props
 
-    click()
+    click(e)
 
   }
 

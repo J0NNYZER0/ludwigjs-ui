@@ -12,7 +12,8 @@ export default {
       name: 'viddy',
       globals: {
         react: 'React',
-        "react-dom": 'ReactDOM'
+        'react-dom': 'ReactDOM',
+        'react-router-dom': 'ReactRouterDOM'
       }
     },
     plugins: [

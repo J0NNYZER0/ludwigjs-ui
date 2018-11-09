@@ -1,6 +1,6 @@
 {
   "name": "viddy",
-  "version": "0.0.11",
+  "version": "0.0.24",
   "description": "ui components for ludwigjs platform'",
   "main": "dist/viddy.min.js",
   "publishConfig": {
@@ -29,6 +29,7 @@
     "@babel/preset-react": "^7.0.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
+    "react-router-dom": "^4.3.1",
     "rollup": "^0.67.0",
     "rollup-plugin-babel": "^4.0.3",
     "rollup-plugin-commonjs": "^9.2.0",
