@@ -1,5 +1,7 @@
 import Button from './components/elements/Button'
+import DangerousHtml from './components/elements/DangerousHtml'
 import MainTitle from './components/elements/MainTitle'
+import MenuIcon from './components/elements/MenuIcon'
 import Contact from './components/forms/Contact'
 import Login from './components/forms/Login'
 import Reconfirm from './components/forms/Reconfirm'
@@ -16,7 +18,9 @@ import WithProgressBar from './components/slideshows/WithProgressBar'
 export default {
   Elements: {
     Button,
+    DangerousHtml,
     MainTitle,
+    MenuIcon
   },
   Forms: {
     Contact,
