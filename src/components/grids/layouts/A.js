@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
-import Grid from '../grid/Index'
-import GridTop from '../grid/GridTop'
-import GridBody from '../grid/GridBody'
-import GridFooter from '../grid/GridFooter'
-import Categories from '../lists/Categories'
-import Grids from '../grids/Index'
+import Grid from '../Index'
+import GridHeader from '../Header'
+import GridBody from '../Body'
+import GridFooter from '../Footer'
+import CategoryList from '../../lists/Category'
+import Grids from './Index'
 
 
-class GridLayout extends Component {
+class GridLayoutA extends Component {
 
   constructor(props) {
     super(props)
@@ -22,11 +22,11 @@ class GridLayout extends Component {
     return [
       products.length > 0 && <Grid {...this.props}
         classNames={`lyt-100`} key={products[0].name}>
-        <GridTop title={products[0].name}>
+        <GridHeader title={products[0].name}>
           {products[0].description}
-        </GridTop>
+        </GridHeader>
         <GridBody>
-          {products[0].features.map((el,i) => <Categories key={i} item={el} />)}
+          {products[0].features.map((el,i) => <CategoryList key={i} item={el} />)}
         </GridBody>
         <GridFooter>
           <NavLink className='link-button xl' to={`/plan/${products[0].id}`}>
@@ -39,7 +39,4 @@ class GridLayout extends Component {
   }
 }
 
-export default GridLayout
-
-
-//to={`/plan/ ${el.id}`}
+export default GridLayoutA

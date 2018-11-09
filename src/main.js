@@ -10,6 +10,7 @@ import Grid from './components/grids/Index'
 import GridHeader from './components/grids/Header'
 import GridBody from './components/grids/Body'
 import GridFooter from './components/grids/Footer'
+import GridLayoutA from './components/grids/layouts/A'
 import Hero from './components/heros/Index'
 import WithModal from './components/heros/WithModal'
 import Footer from './components/layout/footer/Index'
@@ -36,7 +37,10 @@ export default {
     Grid: Grid,
     Header: GridHeader,
     Body: GridBody,
-    Footer: GridFooter
+    Footer: GridFooter,
+  },
+  GridLayouts: {
+    GridLayoutA: GridLayoutA
   },
   Hero,
   Heros: {

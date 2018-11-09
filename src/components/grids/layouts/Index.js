@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import Grid from '../Index'
-import GridTop from '../GridTop'
-import GridBody from '../GridBody'
-import GridFooter from '../GridFooter'
-import LoadMore from '../../LoadMore'
-import Categories from '../../lists/Categories'
+import GridHeader from '../Header'
+import GridBody from '../Body'
+import GridFooter from '../Footer'
+import LoadMore from '../../elements/LoadMore'
+import CategoryList from '../../lists/Category'
 
 class Grids extends Component {
 
@@ -33,12 +33,12 @@ class Grids extends Component {
     return (
       <div className="grids">
         {items.map(el => <Grid {...this.props} key={el.name}>
-            <GridTop title={el.name}>
+            <GridHeader title={el.name}>
               {el.description}
-            </GridTop>
+            </GridHeader>
             <GridBody>
               <LoadMore>
-                {el.features.map((el,i) => <Categories key={i} item={el} />)}
+                {el.features.map((el,i) => <CategoryList key={i} item={el} />)}
               </LoadMore>
             </GridBody>
             <GridFooter>
