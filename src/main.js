@@ -15,6 +15,7 @@ import Hero from './components/heros/Index'
 import WithModal from './components/heros/WithModal'
 import Footer from './components/layout/footer/Index'
 import Header from './components/layout/header/Index'
+import Message from './components/messages/Index'
 import Modal from './components/modals/Index'
 import Notification from './components/notifications/Index'
 import Slideshow from './components/slideshows/Index'
@@ -50,6 +51,7 @@ export default {
     Header,
     Footer
   },
+  Message,
   Modal,
   Notification,
   Slideshow,
