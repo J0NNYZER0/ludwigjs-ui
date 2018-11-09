@@ -6,6 +6,10 @@ import Contact from './components/forms/Contact'
 import Login from './components/forms/Login'
 import Reconfirm from './components/forms/Reconfirm'
 import Register from './components/forms/Register'
+import GridRender from './components/grids/Index'
+import GridHeader from './components/grids/Header'
+import GridBody from './components/grids/Body'
+import GridFooter from './components/grids/Footer'
 import Hero from './components/heros/Index'
 import WithModal from './components/heros/WithModal'
 import Footer from './components/layout/footer/Index'
@@ -27,6 +31,12 @@ export default {
     Login,
     Reconfirm,
     Register
+  },
+  Grids: {
+    Render: GridRender,
+    Header: GridHeader,
+    Body: GridBody,
+    Footer: GridFooter
   },
   Hero,
   Heros: {
