@@ -6,7 +6,7 @@ import Contact from './components/forms/Contact'
 import Login from './components/forms/Login'
 import Reconfirm from './components/forms/Reconfirm'
 import Register from './components/forms/Register'
-import GridRender from './components/grids/Index'
+import Grid from './components/grids/Index'
 import GridHeader from './components/grids/Header'
 import GridBody from './components/grids/Body'
 import GridFooter from './components/grids/Footer'
@@ -33,7 +33,7 @@ export default {
     Register
   },
   Grids: {
-    Render: GridRender,
+    Grid: Grid,
     Header: GridHeader,
     Body: GridBody,
     Footer: GridFooter
