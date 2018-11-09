@@ -24,8 +24,8 @@ export default {
     Reconfirm,
     Register
   },
+  Hero,
   Heros: {
-    Hero,
     WithModal
   },
   Layout: {
@@ -34,8 +34,8 @@ export default {
   },
   Modal,
   Notification,
+  Slideshow,
   Slideshows: {
-    Slideshow,
     WithProgressBar
   }
 }
