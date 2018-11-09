@@ -32,12 +32,8 @@ export default {
     Header,
     Footer
   },
-  Modals: {
-    Modal
-  },
-  Notifications: {
-    Notification
-  },
+  Modal,
+  Notification,
   Slideshows: {
     Slideshow,
     WithProgressBar
