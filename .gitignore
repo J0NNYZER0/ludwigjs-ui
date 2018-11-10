@@ -1,9 +1,5 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
-test/
-
-# compiled output
-/examples/node_modules
-/out-tsc
+dist/
 
 # dependencies
 /node_modules

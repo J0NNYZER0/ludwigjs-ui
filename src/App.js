@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import ContactForm from './components/forms/Contact'
+import { Viddy as v } from '../lib/examples'
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        <ContactForm formTitle={`Request a Demo`}
+        <v.Forms.Contact formTitle={`Request a Demo`}
             subject='Demo Request' contactType={1} />
       </div>
     )
