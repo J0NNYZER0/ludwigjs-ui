@@ -4,7 +4,7 @@ import resolve from 'rollup-plugin-node-resolve'
 import { uglify } from 'rollup-plugin-uglify'
 
 export default {
-    input: 'src/main.js',
+    input: 'lib/index.js',
     external: ['react', 'react-dom'],
     output: {
       file: 'dist/viddy.min.js',

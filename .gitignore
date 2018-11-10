@@ -2,7 +2,7 @@
 test/
 
 # compiled output
-/tmp
+/examples/node_modules
 /out-tsc
 
 # dependencies

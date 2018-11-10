@@ -1,10 +1,14 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-src/
+examples/
+lib/
 test/
+/node_modules
+.babelrc
+.eslintrc
 .gitginore
 .npmignore
-.babelrc
+CODE_OF_CONDUCT.md
 rollup.config.js
 
 # compiled output
@@ -12,7 +16,6 @@ rollup.config.js
 /out-tsc
 
 # dependencies
-/node_modules
 
 # misc
 /.sass-cache
