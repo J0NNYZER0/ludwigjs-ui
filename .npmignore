@@ -1,7 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 /lib
-/src
 /template
 /test
 /node_modules
@@ -16,10 +15,6 @@ webpack.config.js
 # dependencies
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
 npm-debug.log
 
 # System Files

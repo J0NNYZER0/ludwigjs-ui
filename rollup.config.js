@@ -7,9 +7,9 @@ export default {
     input: 'lib/index.js',
     external: ['react', 'react-dom'],
     output: {
-      file: 'dist/viddy.min.js',
+      file: 'dist/ludwig.min.js',
       format: 'umd',
-      name: 'viddy',
+      name: 'ludwig',
       globals: {
         react: 'React',
         'react-dom': 'ReactDOM',
