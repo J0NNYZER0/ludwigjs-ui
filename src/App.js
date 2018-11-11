@@ -6,7 +6,7 @@ export default class App extends Component {
     return (
       <div>
         <v.Forms.Contact formTitle={`Request a Demo`}
-            subject='Demo Request' contactType={1} />
+          subject='Demo Request' contactType={1} />
       </div>
     )
   }

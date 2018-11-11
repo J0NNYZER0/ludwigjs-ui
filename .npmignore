@@ -1,9 +1,9 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-examples/
-lib/
-examples/
-test/
+/lib
+/src
+/template
+/test
 /node_modules
 .babelrc
 .eslintrc
@@ -11,10 +11,7 @@ test/
 .npmignore
 CODE_OF_CONDUCT.md
 rollup.config.js
-
-# compiled output
-/tmp
-/out-tsc
+webpack.config.js
 
 # dependencies
 
@@ -24,12 +21,6 @@ rollup.config.js
 /coverage
 /libpeerconnection.log
 npm-debug.log
-testem.log
-/typings
-
-# e2e
-/e2e/*.js
-/e2e/*.map
 
 # System Files
 .DS_Store
