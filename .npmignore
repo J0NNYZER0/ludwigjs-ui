@@ -9,6 +9,7 @@
 .gitginore
 .npmignore
 CODE_OF_CONDUCT.md
+index.js
 rollup.config.js
 webpack.config.js
 
