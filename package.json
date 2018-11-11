@@ -1,10 +1,10 @@
 {
-  "name": "viddy",
-  "version": "0.0.40",
+  "name": "@ludwigjs/ui",
+  "version": "0.0.1",
   "description": "ui components for ludwigjs platform'",
   "main": "dist/viddy.min.js",
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   },
   "scripts": {
     "build": "rollup -c",
