@@ -2,7 +2,7 @@
   "name": "@ludwigjs/ui",
   "version": "0.0.2",
   "description": "ui components for ludwigjs platform'",
-  "main": "dist/viddy.min.js",
+  "main": "dist/ludwig.min.js",
   "publishConfig": {
     "access": "restricted"
   },
