@@ -1,6 +1,6 @@
 {
   "name": "@ludwigjs/ui",
-  "version": "0.0.20",
+  "version": "0.0.23",
   "description": "ui components for ludwigjs platform'",
   "main": "dist/ludwig.min.js",
   "publishConfig": {
