@@ -14,6 +14,7 @@ exports[`Logo renders correctly 1`] = `
 >
   <span
     className="logo"
+    id="top"
   />
 </a>
 `;
